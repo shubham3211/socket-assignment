@@ -19,7 +19,7 @@ export default function CreateNotificationModal({
   handleSubmit,
 }) {
   const [notificationMessage, setNotificationMessage] = useState("");
-  const [pincode, setPincode] = useState("700018");
+  const [pincode, setPincode] = useState("");
   return (
     <Dialog
       open={open}
